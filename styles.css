@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.sec1{
+  font-size: 30px;  
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+    text-align: left;
+    background-color: #555;
+    padding: 20px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style main content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+/* Style footer */
+footer {
+    margin-top:20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+section ul{
+    margin-left:30px;
+    font-size:30px;
+}
+.container 
+{
+   width:900px;
+   margin:0 auto;
+}
+@media (max-width:800px) 
+{
+   .container
+   {
+      width:840px;
+   }
+}
+@media (max-width:480px) 
+{
+   .container
+   {
+      width:100%;
+      padding:8px;
+   }
+}
